@@ -1,0 +1,524 @@
+body
+{
+    background-image: url("images/background3.jpg");
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display:flex ;
+    justify-content:space-between ;
+    align-items: center;
+    height: 60px;
+    background-color: #896258;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0 5%;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+nav ul li a
+{
+    color: black;
+    margin: 30px;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+nav ul li a:hover
+{
+    color:navajowhite;
+}
+a
+{
+    text-decoration: none;
+}
+section
+{
+    width: 100%;
+    height: 950px;
+    position: relative;
+}
+
+.logo
+{
+    font-family:Monospaced;
+    color: navajowhite;
+    font-size: 26px;
+}
+.picture
+{
+    background-color: #896258;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+.container p
+{
+    font-weight: bold;
+    font-family: Serif;
+    padding-top: -50px;
+    margin: 30px 0 25px;
+
+}
+.container p:nth-child(1)
+{
+    color: black;
+    font-size: 70px;
+    width: 100%;
+    overflow: hidden;
+    animation: slideIn 3s infinite;
+}
+
+.container p:nth-child(2)
+{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #896258;
+    font-family: inherit;
+    animation: slideIn 3.2s infinite;
+
+}
+
+.container p:nth-child(3)
+{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: inherit;
+    animation: slideIn 3.3s infinite;
+}
+
+.container p:nth-child(4)
+{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #896258;
+    font-family: inherit;
+    animation: slideIn 3.4s infinite;
+}
+
+@keyframes slideIn
+{
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+.container
+{
+    position: absolute;
+    left: 13%;
+    top:42%;
+    margin-left: -26px;
+    nargin-top: -42px;
+    padding-top: 30px;
+}
+.readm
+{
+    color: #896258;
+    border:2px solid #896258;
+}
+.cv
+{
+    background-color: #896258;
+    color: navajowhite;
+}
+.container button
+{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0 10px;
+}
+button:active
+{
+    transform: scale(1.1);
+}
+.anka
+{
+    height: 800px;
+    position: absolute;
+    bottom: 40px;
+    left: 76%;
+    border-radius: 40px;
+    transform: translateX(-70%);
+}
+.aboutme-container
+{
+    width: 60%;
+    height: 450px;
+    background-color: #896258;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0,0,0,0.2);
+    display: flex;
+    margin-left: 300px;
+    margin-right: 500px;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#ab
+{
+    height: 400px;
+
+}
+.aboutme-area
+{
+    width: 550px;
+}
+.aboutme-area p:nth-child(1)
+{
+    color: navajowhite;
+    font-family:cursive;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 0;
+}
+.aboutme-area p:nth-child(2)
+{
+    color: navajowhite;
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 5px;
+    line-height: 5px;
+}
+.about-text p:nth-child(3)
+{
+    color:black;
+    font-weight: bold;
+    font-family: Serif;
+    font-size: 30px;
+}
+.about-text p:nth-child(4)
+{
+    color:black;
+    font-weight: bold;
+    font-family: Serif;
+    font-size: 30px;
+}
+.bio
+{
+    background-image: url("images/background3.jpg");
+    height: 100%;
+    width: 1920px;
+    background-color: white;
+    padding: 2% 10% 0 10%;
+
+}
+
+.bio-text p:nth-child(1)
+{
+    font-family: inherit;
+    font-weight: bold;
+    color: #896258;
+    font-size: 35px;
+    line-height: 0;
+
+}
+.bio-text p:nth-child(2)
+{
+    font-family: Serif;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+.bio-text
+{
+    width: 500px;
+    margin: 50px 0px;
+}
+.hobbies
+{
+    padding: 2% 10% 0 10%;
+    position: relative;
+    left: 700px;
+    bottom: 70px;
+    font-weight: bold;
+}
+
+.hobbies-text p:nth-child(1)
+{
+    font-family: inherit;
+    font-weight: bold;
+    color: #896258;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0;
+}
+ul li
+{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.hobbies-text
+{
+    width: 500px;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+.hobbies-text p
+{
+    color: #896258;
+    font-weight: bold;
+    font-size:25px;
+    font-weight: bold;
+}
+#last
+{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+#mh
+{
+    font-weight: bold;
+    font-family: Serif;
+    margin: 45px 0 25px;
+    font-size: 30px;
+}
+
+.box-1, .box-2, .box-3
+{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+.box-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1{
+    background-image: url("images/programmingg.jpg");
+    width: 20%;
+    height: 300px;
+    border-radius:10%;
+}
+.box-2{
+    background-image: url("images/meditacija.webp");
+    width: 40%;
+    height: 300px;
+    border-radius: 10%;
+}
+.box-3{
+    background-image: url("images/serija.jpg");
+    width: 30%;
+    height: 300px;
+    border-radius: 10%;
+}
+hr
+{
+    margin-top: 40px;
+}
+.contact
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.contact p
+{
+    font-weight: bold;
+    border-bottom: 2px solid whitesmoke;
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+
+}
+.contact a
+{
+    background: #896258;
+    padding: 9px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.contact-container
+{
+    background-image: url("images/background3.jpg");
+    height:100%;
+    width: 1500px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.contact-area
+{
+    display:flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-area p
+{
+    font-size: 50px;
+    color: navajowhite;
+}
+.logo
+{
+    font-family:Monospaced;
+    color: navajowhite;
+    font-size: 26px;
+}
+article
+{
+    background-color: #896258;
+    height: 600px;
+    width: 1300px;
+    border-radius: 20px;
+}
+.colorr
+{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 400px;
+    width: 1200px;
+    margin:auto;
+    border-radius: 10px;
+}
+.first
+{
+    float:left;
+    left: 20px;
+    display: inline-block
+}
+input
+{
+    display: inline-block;
+    border: solid 1px white;
+    height: 35px;
+    width: 555px;
+    border-radius: 5px;
+}
+#world
+{
+    display: inline;
+    border: solid 1px white;
+    height: 35px;
+    width: 555px;
+    border-radius: 3px;
+    border: solid 1px white;
+}
+#part2
+{
+    display: inline-block;
+    float: right;
+}
+textarea
+{
+    border-radius: 3px;
+    border: solid 1px black;
+}
+.sub{
+    background-color: #896258;
+    border-color: #896258;
+    color: white;
+    display: inline;
+    height: 40px;
+    width: 350px;
+    border-radius: 3px;
+    margin-left: 600px;
+}
+.sub:hover
+{
+    background-color: transparent;
+    color: #896258;
+}
+.nazad
+{
+
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 10px;
+    color: white;
+    background: #896258;
+    border-radius: 10px;
+}
+footer
+{
+    background: #896258;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: cursive;
+}
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    color:navajowhite;
+    line-height: 10px;
+}
+.social-media a
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-media
+{
+    display: flex;
+}
+
+.social-media a:hover, .apps a:hover
+{
+    background: #896258;
+    transition: all ease 0.5s;
+    box-shadow: 2px 2px 12px rgba(0,0,0.2);
+
+}
+.apps a
+{
+    display: flex;
+    box-shadow: 2px 2px 12px rgba(0,0,0.2);
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    background: white;
+    border:1px solid navajowhite;
+}
+.apps
+{
+    position: fixed;
+    transform: translateX(-50%);
+    top:50%;
+    right: 0;
+}
+
+.contact-container h2
+{
+    color: navajowhite;
+}
+#ab1, #ab2
+{
+    font-size: 20px;
+    font-weight: bold;
+}
